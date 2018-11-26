@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.ProfileActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:src="@drawable/ic_account_circle_black_24dp"
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_height="150dp" />
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20sp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/name"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/nameEt"
+            android:text="Aunik"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Password :"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/passwordEt"
+            android:text="Password"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Email :"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/emailEt"
+            android:text="Email"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
